@@ -3,6 +3,12 @@ class Employee{
    empCode: number;
    empName: string;
 
+   display():void{
+	   
+	    console.log("Employee Code: "+this.empCode);
+		console.log("Employee Name: "+this.empName);
+   }
+   
 }
 
 
@@ -14,3 +20,5 @@ emp_obj.empName = "Atul Krishna Thakur";
 
 console.log("Employee Code:"+emp_obj.empCode);
 console.log("Employee Name:"+emp_obj.empName);
+
+emp_obj.display();
